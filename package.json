@@ -1,0 +1,22 @@
+{
+  "name": "monaco-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack serve",
+    "build": "NODE_ENV=production webpack"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "monaco-editor-webpack-plugin": "^4.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "monaco-editor": "0.25.1"
+  }
+}
